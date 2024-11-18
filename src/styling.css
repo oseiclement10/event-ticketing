@@ -1,18 +1,21 @@
 .zigzag {
   animation: zigzag 3s infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .zigzag-reverse {
   animation: zigzag-reverse 3s infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .astronaut {
   animation: astronaut 3s infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes astronaut {
   0% {
-    transform: translate(0, 0);
+    transform: translate(10px, 0px);
   }
   25% {
     transform: translate(-50px, -50px);
