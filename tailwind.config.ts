@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        "dmsans": ["DM Sans", "sans-serif"],
+        "geist-mono": ["Geist Mono", "monospace"],
+        "inter":["Inter", "sans-serif"],
+        "poppins":["Poppins", "sans-serif"]
+      }
     },
   },
   plugins: [],

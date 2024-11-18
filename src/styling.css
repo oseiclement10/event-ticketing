@@ -1,0 +1,79 @@
+.zigzag {
+  animation: zigzag 3s infinite;
+}
+
+.zigzag-reverse {
+  animation: zigzag-reverse 3s infinite;
+}
+
+.astronaut {
+  animation: astronaut 3s infinite;
+}
+
+@keyframes astronaut {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-50px, -50px);
+  }
+  50% {
+    transform: translate(0px, -100px);
+  }
+  75% {
+    transform: translate(100px, -150px);
+  }
+
+  100% {
+    transform: translate(0px, -200px);
+  }
+
+  100% {
+    transform: translate(50px, -250px);
+  }
+
+}
+
+@keyframes zigzag-reverse {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-50px, -50px);
+  }
+  45% {
+    transform: translate(-100px, 0);
+  }
+  65% {
+    transform: translate(-150px, -100px);
+  }
+  80% {
+    transform: translate(-200px, 0);
+  }
+
+  100% {
+    transform: translate(-300px, -130px);
+  }
+}
+
+@keyframes zigzag {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(50px, 50px);
+  }
+  45% {
+    transform: translate(100px, 0);
+  }
+  65% {
+    transform: translate(150px, 100px);
+  }
+  80% {
+    transform: translate(200px, 0);
+  }
+
+  100% {
+    transform: translate(300px, 130px);
+  }
+}
